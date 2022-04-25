@@ -17,7 +17,24 @@ export default function Home() {
           Welcome to About Us
         </h1>
 
-       
+        <ul className={styles.list}>
+  <li>
+  <Link href="/">
+  <a>Home</a>
+  </Link>
+  </li>
+  <li>
+  <Link href="/about">
+  <a >About Us</a>
+  </Link>
+  </li>
+  <li>
+  <Link href="/contact">
+  <a >Contact Us</a>
+  </Link>
+  </li>
+  
+</ul>
        
       </main>
 
